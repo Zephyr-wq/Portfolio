@@ -4,3 +4,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.git{
+    background-color: rgb(2, 2, 15);
+}

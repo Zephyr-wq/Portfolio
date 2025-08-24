@@ -10,24 +10,28 @@
 
   <style>
     .glow-text {
-      color: orange; /* text color */
+      color: orange;
       text-shadow: 
-        0 0 5px ,
-        0 0 10px  #FF5349,
-        0 0 20px  #FF5349,
-        0 0 40px  #FF5349;
+        0 0 5px,
+        0 0 10px #FF5349,
+        0 0 20px #FF5349,
+        0 0 40px #FF5349;
+    }
+    .text-gradient {
+      background: linear-gradient(to right, #FF5349, #FF8C00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   </style>
 </head>
-<body>
+<body class="bg-black text-white">
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top bg-black justify-content-start">
+<nav class="navbar navbar-expand-lg fixed-top bg-black">
   <div class="container">
-    
     <!-- Logo -->
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865374/logo_zyvfau.png" alt="Logo" height="40" class="me-2"> 
+      <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865374/logo_zyvfau.png" alt="Logo" height="40" class="me-3"> 
     </a>
 
     <!-- Mobile Toggle -->
@@ -36,164 +40,145 @@
     </button>
 
     <!-- Links -->
-   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link text-white" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="#">Projects</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="#">Experience</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="#">Contact</a>
-    </li>
-  </ul>
-</div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Projects</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Experience</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
-<br>
+
 <!-- Hero Section -->
-<section class="hero bg-dark text-white text-center py-5 bg-black">
-    <div class="container">
-        <img src="pics/me.jpg" alt="Hero Image" class="img-fluid rounded-circle"><br><br>
-        <h4 class="display-7 fw-bold"><b>Frontend web developer<br>student and soon to be <br><span class="text-gradient">React developer</span></b></h4>
-        <br>
-        <p class="text-secondary">I am passionate about building responsive <br>and user-friendly web applications. <br>With the help of friendly tutors, I was able <br>to acheive knowledge on the use of HTML, CSS, Bootstrap and Javascript.</p>
-        <br>
-         <br>
-        <div class="click"><a href="#">
-            <a><button class="btn btn-light text-dark fw-bold">Get in Touch</button></a>
-            <a><button class="btn btn-outline-light"><b>Download CV</b></button></a>
-        </div>
-    </div>
-    <br>
-    <br>
-    <p class="text-secondary fw-bold">EXPERIENCE  WITH</p>
-    <br>
-    <br>
-    <div class="container">
-        <div class="d-flex justify-content-center gap-5 flex-wrap">
-         <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865817/javascript_ekadyw.png" class="img-fluid" height="42px" width="42px">
-         <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865815/nodejs_my9ts8.png" class="img-fluid" height="42px" width="42px">
-         <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865815/html_y0qhh6.png" class="img-fluid" height="42px" width="42px">
-         <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865813/css_sls0t6.png" class="img-fluid" height="42px" width="42px">
-         <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865815/reactjs_bbk0by.png" class="img-fluid" height="42px" width="42px">
-        </div>
-    </div>
-
-    <br>
-    <br>    
-    <br>
-    <h4 style="font-size: 25px; font-style: normal; font-family: poppins; font-weight: 800; color: #FF5349;" class="glow-text">PROJECTS</h4>
-    <div class="container">
-        <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div style="width: 390px; height: 301px;" class="col-md-6 text-start">
-                     <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755867552/project-thumbnail-1_vw5enf.png" class="img-fluid rounded" width="390px" height="235px">
-                     <div class="bg-secondary align-start" style="align-items: start; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;"><h6 style="font-size: 10px;" class="text-start">CLICK HERE TO VISIT<br></h6><h4 class="text-start"><b style="font-size: 16px;">HTML TUTORIAL</b></h4></div>
-                    </div>
-                </div>
-             
-                <div class="col-md-6">
-                    <div style="width: 390px; height: 301px;">
-                      <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755867552/project-thumbnail-2_vau5ih.png" class="img-fluid rounded" width="390px" height="235px">
-                      <div class="bg-secondary align-start" style="align-items: start; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;"><h6 style="font-size: 10px;" class="text-start">CLICK HERE TO VISIT<br></h6><h4 class="text-start"><b style="font-size: 16px;">CSS TUTORIAL</b></h4></div>
-                    </div>
-                </div>
-             
-            </div>
-        </div>
-    </div>
-
-    <br>
-    <br>
-    <br>
-    <h4 style="color: aqua;"><b>EXPERIENCE</b></h4>
-    <br>
-    <br>
-
+<section class="hero text-center py-5 mt-5">
   <div class="container">
-    <div class="row align-items-center">
-      <!-- Left: Logo + Title -->
+    <img src="pics/me.jpg" alt="Hero Image" class="img-fluid rounded-circle" width="150">
+    <br><br>
+    <h4 class="fw-bold mt-4">
+      Frontend Web Developer <br>
+      Student and soon to be <br>
+      <span class="text-gradient">React Developer</span>
+    </h4>
+    <br>
+    <p class="text-secondary mt-3">
+      I am passionate about building responsive and user-friendly web applications. <br>
+      With the help of friendly tutors, I gained knowledge of HTML, CSS, Bootstrap, and JavaScript.
+    </p>
+    <br>
+    <div class="mt-4">
+      <button class="btn btn-light text-dark fw-bold me-2">Get in Touch</button>
+      <button class="btn btn-outline-light fw-bold">Download CV</button>
+    </div>
+  </div>
+
+  <!-- Skills Logos -->
+  <div class="container mt-5">
+    <p class="text-secondary fw-bold">EXPERIENCE WITH</p>
+    <br>
+    <div class="d-flex justify-content-center gap-5 flex-wrap mt-3">
+      <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865817/javascript_ekadyw.png" width="42" height="42" alt="JS">
+      <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865815/nodejs_my9ts8.png" width="42" height="42" alt="NodeJS">
+      <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865815/html_y0qhh6.png" width="42" height="42" alt="HTML">
+      <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865813/css_sls0t6.png" width="42" height="42" alt="CSS">
+      <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755865815/reactjs_bbk0by.png" width="42" height="42" alt="React">
+    </div>
+  </div>
+  <br><br>
+
+  <!-- Projects Section -->
+  <div class="container mt-5">
+    <h4 class="glow-text" style="font-size: 25px; font-family: Poppins; font-weight: 800;">PROJECTS</h4>
+    <div class="row mt-4 g-4 justify-content-center">
+      <div class="col-md-5">
+        <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755867552/project-thumbnail-1_vw5enf.png" class="img-fluid" alt="HTML Project">
+        <div class="bg-secondary text-start p-2 rounded-bottom" style="border-bottom-left-radius: 50px;>
+          <h6 style="font-size: 10px;">CLICK HERE TO VISIT</h6>
+          <h4><b style="font-size: 16px;">HTML TUTORIAL</b></h4>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755867552/project-thumbnail-2_vau5ih.png" class="img-fluid" alt="CSS Project">
+        <div class="bg-secondary text-start p-2 rounded-bottom" style="border-bottom-left-radius: 50px;">
+          <h6 style="font-size: 10px;">CLICK HERE TO VISIT</h6>
+          <h4><b style="font-size: 16px;">CSS TUTORIAL</b></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+ <br>
+  <!-- Experience Section -->
+  <div class="container mt-5">
+    <h4 class="text-info fw-bold">EXPERIENCE</h4>
+    <br>
+    <!-- Google -->
+    <div class="row align-items-center mt-4">
       <div class="col-md-8 d-flex align-items-center">
-        <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755871055/google-logo_dtmrey.png" 
-             class="img-fluid me-2" style="max-width:40px;" alt="Google Logo">
+        <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755871055/google-logo_dtmrey.png" class="me-2" style="max-width:40px;" alt="Google">
         <b style="font-size: 20px;">Lead Web Developer at Google</b>
       </div>
-             
-      <!-- Right: Date -->
       <div class="col-md-4 text-end">
         <h6 style="font-size: 10px;">Aug 2025 - Present</h6>
       </div>
     </div>
-       
     <br>
-    <!-- Description -->
-    <div class="row mt-2">
-      <div class="col-12">
-        <p style="font-size: 14px;" class="text-secondary mb-0">
-          As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions 
-          for G oogle's<br>core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of<br>search accuracy and efficiency, optimizing user experiences for millions of users worldwide.
-        </p>
-      </div>
-    </div>
-  </div>
-   <br>
-   <br>
+    <p class="text-secondary mt-2 text-start" style="font-size: 14px;">
+      My journey into web development began with curiosity about how websites worked behind the scenes. I started experimenting with HTML and CSS, creating simple pages with headings, text, and images. Seeing my code come to life in a browser was exciting and motivated me to keep learning. Over time, I explored layouts, colors, and responsive design, gradually building a foundation in front-end development.
+    </p>
+    <br>
 
-  <div class="container">
-    <div class="row align-items-center">
-      <!-- Left: Logo + Title -->
+    <!-- Apple -->
+    <div class="row align-items-center mt-4">
       <div class="col-md-8 d-flex align-items-center">
-        <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755871055/apple-logo_ru5f3b.png" 
-             class="img-fluid me-2" style="max-width:40px;" alt="Apple Logo">
+        <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755871055/apple-logo_ru5f3b.png" class="me-2" style="max-width:40px;" alt="Apple">
         <b style="font-size: 20px;">Junior Software Engineer at Apple</b>
       </div>
-
-      <!-- Right: Date -->
       <div class="col-md-4 text-end">
         <h6 style="font-size: 10px;">Jan 2020 - Mar 2021</h6>
       </div>
     </div>
-      <br>
-    <!-- Description -->
-    <div class="row mt-2">
-      <div class="col-12">
-        <p style="font-size: 14px;" class="text-secondary mb-0">
-            During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the<br> architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, I <br>provided technical leadership to a cross-functional team.
-        </p>
-      </div>
-    </div>
-  </div>
-   <br>
-   <br>
-   <div class="container">
-    <div class="row align-items-center">
-      <!-- Left: Logo + Title -->
+    <br>
+    <p class="text-secondary mt-2 text-start" style="font-size: 14px;">
+      Once I was comfortable with structure and styling, I turned to JavaScript to add interactivity. I began with small projects like calculators, to-do lists, and digital clocks, which helped me understand logic and functionality. From there, I explored modern frameworks like React and tools like GitHub, which allowed me to work on larger, more dynamic projects. Each challenge, from debugging to refining designs, taught me problem-solving and best practices.
+    </p>
+    <br>
+
+    <!-- Meta -->
+    <div class="row align-items-center mt-4">
       <div class="col-md-8 d-flex align-items-center">
-        <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755871054/meta-logo_fi89tu.png" 
-             class="img-fluid me-2" style="max-width:40px;" alt="Meta Logo">
+        <img src="https://res.cloudinary.com/det5cjrev/image/upload/v1755871054/meta-logo_fi89tu.png" class="me-2" style="max-width:40px;" alt="Meta">
         <b style="font-size: 20px;">Software Engineer at Meta</b>
       </div>
-
-      <!-- Right: Date -->
       <div class="col-md-4 text-end">
         <h6 style="font-size: 10px;">July 2022 - Oct 2023</h6>
       </div>
     </div>
+    <br>
+    <p class="text-secondary mt-2 text-start" style="font-size: 14px;">
+      Today, I see web development as the perfect balance of creativity and technical skill. I enjoy turning ideas into interactive experiences that are both functional and visually engaging. For me, building websites is not just about writing code—it’s about creating solutions that people can use and enjoy. With technology always evolving, I’m committed to continuously learning and growing as a developer.
+    </p>
+  </div>
+  <br><br><br>
 
-    <!-- Description -->
-    <div class="row mt-2">
-      <div class="col-12">
-        <p style="font-size: 14px;" class="text-secondary mb-0">
-         At Meta, I served as a Software Engineer, focusing on the design
-        </p>
+  <section class="git py-5 mt-5">
+    <div class="container text-start">
+      <br><br>
+      <div>
+        <h3>Contact</h3>
+        <br>
+        <p style="font-size: 16px;" class="text-secondary mt-2 text-start">I am a seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing and implementing robust, scalable, and innovative web solutions. Adept at leveraging a comprehensive skill set encompassing front-end and back-end technologies.</p>
+        <br>
+        <a href="#" class="text-decoration-none text-secondary">benigwe61@gmail.com</a>
+        <br>
+        <div class="mb-3 text-secondary">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
 </section>
 
