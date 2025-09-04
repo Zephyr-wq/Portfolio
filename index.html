@@ -202,18 +202,22 @@
         <br>
         <i class="fa-solid fa-envelope"></i> <a href="#" class="text-decoration-none text-secondary">benigwe61@gmail.com</a><br>
 
-        <form action="https://formspree.io/f/mandqkov" method="POST">
-          <label>
-           <p style="font-size: 16px;" class="text-secondary mt-2 text-start">Your email:</p> <input type="email" name="email">
-          </label>
-          <label>
-           Your message:
-           <textarea name="message"></textarea>
-          </label>
-         <!-- your other form fields go here -->
-         <button type="submit">Send</button>
-        </form>
+        <form action="https://formspree.io/f/mandqkov" method="POST" class="p-4 rounded" style="background-color: #111;">
+  <!-- Email -->
+  <div class="mb-3">
+    <label for="email" class="form-label text-light">Your Email</label>
+    <input type="email" class="form-control bg-dark text-light border-secondary" id="email" name="email" placeholder="Enter your email" required>
+  </div>
 
+  <!-- Message -->
+  <div class="mb-3">
+    <label for="message" class="form-label text-light">Your Message</label>
+    <textarea class="form-control bg-dark text-light border-secondary" id="message" name="message" rows="4" placeholder="Type your message..." required></textarea>
+  </div>
+
+  <!-- Submit -->
+  <button type="submit" class="btn btn-warning w-100 fw-bold">Send</button>
+</form>
         <br>
         <div class="bam mb-3 text-secondary text-start">
           <a href="#" class="text-decoration-none text-secondary"><i class="fa-brands fa-instagram"></i></a> 
